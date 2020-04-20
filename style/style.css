@@ -1,0 +1,228 @@
+body {
+    margin: 0;
+    padding: 0;
+    
+}
+
+    /* head */
+
+#header{
+    margin: 0;
+    padding: 0;
+    background: url(image/background.jpg) no-repeat center;
+    height: 18.5em;
+    display: absolute;
+    border-bottom: 1.1em orange solid;
+}
+.ul_1 ul {
+    display:flex;
+    list-style: none;
+}
+.ul_1 ul li a {
+    font-size: 1.3em;
+    color: orange;
+    text-decoration: none;
+    font-family: 'Conv_Web Serveroff';
+}
+.ul_1 ul li { 
+    margin:1em;
+    font-weight:bold;
+    text-align:center;
+    margin-top: 6.5em;
+    text-decoration: none;
+    font-size: 2em;
+}
+.ul_1 :hover {
+    transform: scaleY(1);
+}
+.ul_1 ul li:hover a {
+    background-color: white;
+    transition: color .3s ease;
+}
+
+.ul_2{display:flex;
+          position: absolute;
+          left: 75em;
+          top: 1em;
+	   list-style:none;}
+.ul_2 ul li{display: flex;
+    
+}
+.ul_2 ul li a:hover{/* survol de la souris */
+	background:#ecf0f1;
+    transition: color .3s ease;
+}
+
+.ul_3 ul {
+    display:flex;
+    list-style: none;
+}
+.ul_3 ul li a {
+    font-size: 1.3em;
+    color: orange;
+    text-decoration: none;
+}
+.ul_3 ul li { 
+    margin:2em;
+    font-weight:bold;
+    text-align:center;
+    text-decoration: none;
+    font-size: 2em;
+}
+
+.logo{
+    margin: 0;
+    padding: 0;
+position: absolute;
+right: 32em;
+top: 2.5em;
+}
+.menu2{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.img1 {
+    box-shadow: 0px 6px 6px orange;
+
+}
+.img2{
+     box-shadow: 0px 6px 6px orange;
+    width: 40%;
+    height: 40%;
+}
+.text1 {   
+            color: #FF8000;
+            display:inline-block;
+            width: 150px;
+            height: 25px;
+            line-height: 25px;
+        }    
+
+    /*foot.php */
+
+footer {
+    background-color: darkorange;
+    text-align: center;
+    color: #ffff;
+    padding: 6px 0 10px 0;
+    
+}
+
+.container {
+    width: 1100px;
+    margin: 0 auto;
+}
+
+/* index_admin.php */
+
+.background2{
+    background: url(image/admin.jpg) bottom;
+    height: 50em;
+}
+.form{  
+	margin-left: auto;
+    margin-right: auto; 
+    padding:15em; 
+  	line-height: 2em;
+}
+.text2{
+    color: #FF8000;
+            display:block;
+            height: 25px;
+            line-height: 25px;
+    
+}
+
+/* index.php */
+
+.background1{
+    background: url(image/background1.jpg) no-repeat center ;
+}
+.p_1 {
+    font-size: 1em;
+}
+
+/* index_forum.php */
+
+.background3 {
+    background: url(image/background_connexion.jpg) no-repeat bottom ;
+    height: 50em;
+    display: flex;
+}
+
+.ul_4 ul {
+    display:flex;
+    list-style: none;
+    margin-top: 25em;
+}
+.ul_4 ul li a {
+    font-size: 1em;
+    color: orange;
+    text-decoration: none;
+}
+.ul_4 ul li { 
+    margin:2.5em;
+    font-weight:bold;
+    text-align:center;
+    text-decoration: none;
+    font-size: 2em;
+}
+.ul_4 ul li a:hover{/* survol de la souris */
+	background:#848484;
+    transition: color .3s ease;
+}
+
+/* index_connexion.php */
+
+/* index_inscription.php */
+
+/* index_generer.php */
+
+.mdp {
+    background: orangered;
+    text-align: left;
+    color: white;   
+}
+
+/* index_mecaniquetopic.php */
+
+.commentaire{
+    margin-top: 1em;
+    width: 50%; 
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.h2{
+    margin-top: 7em;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;    
+}
+.background4{
+    background-color: darkslategrey;
+    width: 100%;
+}
+
+/* index_tunning.php*/
+
+    /* Racourci */
+
+.center{
+    width: 50%; 
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;      
+}
+.color{
+    font-weight: 300;
+    color: #FE642E;
+    font-family: fantasy;
+}
+.clearfix{
+	margin: 0, padding 0;
+	width: 0; height: 0;
+    clear: both;
+}
